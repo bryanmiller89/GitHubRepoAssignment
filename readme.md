@@ -1,0 +1,1 @@
+This file contains files that will be copied over to my GitHub repository as a practice exercise.
