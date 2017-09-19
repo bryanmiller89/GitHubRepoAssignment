@@ -1,0 +1,89 @@
+Last login: Tue Sep 19 09:54:45 on console
+Bryans-MacBook-Pro:~ bmillz$ cd Desktop
+Bryans-MacBook-Pro:Desktop bmillz$ ls
+DojoAssignments
+GitHubRepoAssignment
+Screen Shot 2017-09-18 at 5.31.59 PM.png
+gittest
+test
+Bryans-MacBook-Pro:Desktop bmillz$ cd githubrepoassignments
+-bash: cd: githubrepoassignments: No such file or directory
+Bryans-MacBook-Pro:Desktop bmillz$ cd githubrepoassignment
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ ls
+readme.md
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git add readme.md
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   readme.md
+
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git commit -m "added readme.md"
+[master (root-commit) 989d21c] added readme.md
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git status
+On branch master
+nothing to commit, working tree clean
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git log
+commit 989d21ceb1e20bf936a999e6e2b26591d98db48d (HEAD -> master)
+Author: Bryan Miller <Bryan_Miller@gmail.com>
+Date:   Tue Sep 19 12:15:27 2017 -0700
+
+    added readme.md
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git remote add origin https://github.com/bryanmiller89/GitHubRepoAssignment.git
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git remote add origin https://github.com/bryanmiller89/GitHubRepoAssignment.git
+fatal: remote origin already exists.
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git push -u origin master
+Username for 'https://github.com': bryanmiller89@gmail.com
+Password for 'https://bryanmiller89@gmail.com@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/bryanmiller89/GitHubRepoAssignment.git/'
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git push -u origin master
+Username for 'https://github.com': bryanmiller89@gmail.com
+Password for 'https://bryanmiller89@gmail.com@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/bryanmiller89/GitHubRepoAssignment.git/'
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git remote add origin https://github.com/bryanmiller89/GitHubRepoAssignment.git
+fatal: remote origin already exists.
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git push -u origin master
+Username for 'https://github.com': bryanmiller89
+Password for 'https://bryanmiller89@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/bryanmiller89/GitHubRepoAssignment.git/'
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git remote add origin https://github.com/bryanmiller89/GitHubRepoAssignment.git
+fatal: remote origin already exists.
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git push -u origin master
+Username for 'https://github.com': bryanmiller89@gmail.com
+Password for 'https://bryanmiller89@gmail.com@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 296.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/bryanmiller89/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ ls
+readme.md
+Bryans-MacBook-Pro:githubrepoassignment bmillz$ 
